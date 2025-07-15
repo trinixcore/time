@@ -48,9 +48,9 @@ class SupabaseService {
 
       // Fallback to static values
       await Supabase.initialize(
-        url: 'https://jfahmudhqiozaotquakd.supabase.co',
+        url: 'MY-URL',
         anonKey:
-            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpmYWhtdWRocWlvemFvdHF1YWtkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAwNDAzNzgsImV4cCI6MjA2NTYxNjM3OH0.pEh2GKQ_InR13Cv5wUkHg2v2gREmxw9nK6JQaM4917Q',
+            'MY-KEY',
       );
     }
   }
