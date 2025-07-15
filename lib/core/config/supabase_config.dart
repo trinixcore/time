@@ -1,14 +1,7 @@
 import '../services/dynamic_config_service.dart';
 
 class SupabaseConfig {
-  // Static fallback values (commented out to ensure dynamic values are used)
-  // static const String _fallbackUrl = 'https://jfahmudhqiozaotquakd.supabase.co';
-  // static const String _fallbackAnonKey =
-  //     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpmYWhtdWRocWlvemFvdHF1YWtkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAwNDAzNzgsImV4cCI6MjA2NTYxNjM3OH0.pEh2GKQ_InR13Cv5wUkHg2v2gREmxw9nK6JQaM4917Q';
-  // static const String _fallbackServiceRoleKey =
-  //     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpmYWhtdWRocWlvemFvdHF1YWtkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MDA0MDM3OCwiZXhwIjoyMDY1NjE2Mzc4fQ.2tv1fZaSgdFEFoXduJd4MfKWa7VolckHFPpdRTOp3D0';
-
-  // Service instance
+  
   static final DynamicConfigService _configService = DynamicConfigService();
 
   // ============= DYNAMIC CONFIGURATION METHODS =============
